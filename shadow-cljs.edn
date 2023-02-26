@@ -1,6 +1,11 @@
-{:sourve-paths ["src/cljs"]
+{:source-paths ["src/cljs"]
  :nrepl {:port 9000}
- :dependences [[cider/cider-nrepl "0.25.0"]]
- :builds {}
+ :dependences [[cider/cider-nrepl "0.25.0"]] 
+ :builds {:app {:target :browser 
+                 :output-dir "resources/public/js" 
+                 :modules {:main {:entries [app.core] }}
+              }
+          
+          }
 
  }
