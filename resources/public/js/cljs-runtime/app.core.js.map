@@ -1,0 +1,1 @@
+{"version":3,"sources":["app/core.cljs"],"mappings":";AAEA,YAAA,ZAACA","names":["js/console.log"],"sourcesContent":["(ns app.core)\n\n(js/console.log \"Hello World!\")\n"]}
