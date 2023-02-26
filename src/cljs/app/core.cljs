@@ -1,3 +1,5 @@
 (ns app.core)
 
-(js/console.log "Hello World!")
+(defn ^:export init []
+  (js/console.log "Hello World!"))
+
